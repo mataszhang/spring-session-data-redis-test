@@ -9,7 +9,7 @@
 <body>
     FROM SERVER-A
     <hr/>
-    name:${name } <br/>
+    ${user.name } =>${user.age } <br/>
    <%out.print(session.getId()) ;%>
 </body>
 </html>
