@@ -7,10 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>  
-
-   <%
-         session.setAttribute("name", "jack");
-         response.sendRedirect("/test/index");
-   %>
+    <form action="auth">  
+         <button type="submit">submit</button>
+    </form>
 </body>
 </html>
