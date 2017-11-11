@@ -159,7 +159,6 @@
 					<webApp>
 						<!-- 设置发布 -->
 						<contextPath>/test</contextPath>
-						<!-- 设置默认webdefault.xml,这个主要是为了禁止jetty启动之后,锁定文件.需要修改webdefault.xml里面的useFileMappedBuffer属性为false -->
 					</webApp>
 					<httpConnector>
 						<!-- 设置端口 -->
